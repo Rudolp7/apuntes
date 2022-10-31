@@ -1,0 +1,18 @@
+class Client{
+final int port=1024;
+final String address="192.168.1.59";
+socket socket;
+DataInputStream dis;
+DataOutputStream dos; //apartando los lugares
+
+public Client(int puerto,String address){
+
+  this.port=port;
+  
+
+}
+
+
+public static void main(String, args[]){
+  new Client(); //instanciar de manera anonima;
+  
