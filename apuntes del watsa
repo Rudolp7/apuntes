@@ -1,3 +1,27 @@
 puertos mayores del 1023 :D
 
+*pseudocodigo*
+Cliente{
 
+Direccion
+
+Puerto
+
+Socket{obtener el flujo de salida }
+
+enviar la informacion
+
+
+
+
+}
+
+Servidor{
+
+configura el socket como servidor
+
+aceptar a los clientes
+
+espera a recibir la informacion del flujo de entrada 
+
+}
